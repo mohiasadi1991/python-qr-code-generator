@@ -3,7 +3,7 @@ from pathlib import Path
 
 def generate_qr(data, filename):
     if not data.strip():
-        print("Please enter some text or a UR.")
+        print("Please enter some text or a URL.")
         return
 
     qr = qrcode.QRCode(
